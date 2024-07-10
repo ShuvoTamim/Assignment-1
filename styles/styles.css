@@ -8,23 +8,36 @@
 }
 .text-primary{
     color:#0D1321 ;
+    text-size-adjust: 40px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 80px;
+    margin: 35px 100px;
 }
 .nav-title{
     font-weight: 800;
-    font-size: 28px;
+    font-size: 50px;
 }
+
 nav ul li{
     list-style: none;
 }
 .btn-primary{
     padding: 18px 35px;
 }
+button{
+    display: block;
+    margin: auto;
+    padding:18px 35px;
+    background-color: #0D1321;
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+    
+
 .banner-profile-pic{
     width: 998px;
 }
@@ -39,9 +52,95 @@ nav ul li{
     margin-right: auto; 
 }
 .centre{
- text-align: center;
-}
-   
-.banner-content{
+    text-align: center;
    
 }
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    color: #0D1321;
+    font-weight: bold;
+}
+.section-description{
+font-size: 15px;
+color: rgb(39, 37, 37); 
+padding: 50px;
+}
+.secondary-bg{
+    background-color: #dee6fb
+}
+.about{
+    border-radius: 10px;
+    padding:80px;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: auto 150px;
+}
+header{
+    max-width: 1440px;
+}
+
+.secondary-button{
+    background-color: aliceblue;
+    list-style: none;
+    color: #0D1321;
+    padding: 5%;
+}
+.text-centre{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+}
+.skill-1{
+    background-color:rgb(255, 236, 241);
+}
+.skill-2{
+    background-color:rgb(236, 238, 254)
+}
+.skill-3{
+    background-color: rgb(254, 254, 228);
+}
+.learnmore{
+    color: #000;
+}
+.one{
+    display: flex;
+    margin: 40px 40px;
+    padding:30px;
+    background-color: rgb(239, 245, 249);
+    justify-content: space-between;
+  
+}
+.two{
+
+        display: flex;
+        margin: 40px 40px;
+        padding: 30px;
+        background-color: rgb(239, 245, 249);
+        justify-content: space-between;
+    
+}
+.three{
+   
+        display: flex;
+        margin: 40px 40px;
+        padding: 30px;
+        background-color: rgb(239, 245, 249);
+        justify-content: space-between;
+    }
+    .inspiration{
+        text-align: center;
+        margin: 40px 40px;
+        padding: 30px;
+    }
+   .video{
+    display:block;
+    padding:0% 150px;
+   }
