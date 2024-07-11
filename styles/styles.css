@@ -162,9 +162,24 @@ header{
 
  .support{
     background-image: url(../assets/handshake.jpg);
-    padding: 4rem;
+    padding: 30px;
     color: white;
     border-radius: 10px;
+    margin-top: 49px;
+    margin-bottom: 40px;
+    
+ }
+
+
+ .main{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 160px;
+    padding-left: 160px;
+    background-color:rgb(231, 231, 231)
  }
 
 
